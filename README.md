@@ -5,7 +5,7 @@ Portuguese banking institution used direct marketing campaign to sell term depos
 Attribute Information:
 Input variables:
 
-# bank client data:
+bank client data:
 1 - age (numeric)
 2 - job : type of job (categorical: 'admin.', 'unknown', 'unemployed', 'management', 'housemaid', 'entrepreneur', 'student', 'blue-collar', 'self-employed', 'retired', 'technician', 'services')
 3 - marital : marital status (categorical: 'married', 'divorced', 'single'; note: 'divorced' means divorced or widowed)
@@ -14,12 +14,12 @@ Input variables:
 6 - balance: average yearly balance, in euros (numeric)
 7 - housing: has housing loan? (binary/flag: 'yes', 'no')
 8 - loan: has personal loan? (binary/flag: 'yes', 'no')
-# related with the last contact of the current campaign:
+related with the last contact of the current campaign:
 9 - contact: contact communication type (categorical: 'unknown', 'telephone', 'cellular')
 10 - day: last contact day of the month (numeric)
 11 - month: last contact month of the year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
 12 - duration: last contact duration, in seconds (numeric)
-# other attributes:
+other attributes:
 13 - campaign: number of contacts performed during this campaign and for this client (numeric, includes
 last contact)
 14 - pdays: number of days since the last contact with the client from a previous marketing campaign
