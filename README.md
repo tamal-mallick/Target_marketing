@@ -31,4 +31,4 @@ last contact)
 Dataset: http://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
 
-Solved using Decision Tree and Random Forest, used randomized search and grid search for comparison.
+Solved using Decision Tree and Random Forest; used randomized search and grid search for comparison.
